@@ -1,0 +1,18 @@
+[package]
+name = "wave-insight-web"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["Junzhuo <zhou@junzhuo.me>"]
+description = "Web Front-End for Wave-Insight"
+keywords = ["Waveform-Viewer", "Broswer-Based", "lib"]
+readme = "README.md"
+homepage = "https://wave-insight.io"
+repository = "https://github.com/Wave-Insight/web"
+documentation = "https://docs.rs/crate/wave-insight-web/latest"
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "^0.2"
+yew = "0.17"
